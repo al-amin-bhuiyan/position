@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Position</title>
+    <style>
+      
+        .box{
+            position: relative;
+            /* border: 2px dotted green; */
+            width: 200px;
+        }
+        .box img{
+            width: 200px;
+            height: 200px;
+           
+        }
+        .ring{
+            top: -140px;
+            z-index:2;
+        
+           
+        }
+        .boy{
+            left: 35px;
+            z-index: 3;
+
+        }
+       
+       
+        .water{
+            top: -340px;
+            
+            left: 15px;
+            z-index: 1;
+
+           
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h3>CSS Postion</h3>
+        <ol>
+            <p>Normal Position</p>
+            <li>Static</li>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <p>Scroll Related</p>
+            <li>Fixed</li>
+            <li>Sticky</li>
+        </ol>
+        <div class="swim-container">
+            <div class="box boy">
+                <img src="css/images/boy.jpg" alt="">
+            </div>
+            <div class="box ring">
+                <img src="css/images/ring.jpg" alt="">
+            </div>
+            <div class="box water">
+                <img src="css/images/water.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
